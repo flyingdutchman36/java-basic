@@ -11,7 +11,24 @@ public class Main {
 //        demoNaturalOrderSort();
 //        demoJava8Sort();
 //        demoSimpleArrayList();
-        advArrayList();
+//        advArrayList();
+        findX();
+    }
+
+    public static void findX () {
+        float y=0;
+        float x=0;
+        for (int i = 1; i < 5 ; i++) {
+            for (int j = i+1; j <= i ; j++) {
+                x = 3 * i;
+                y = 3 * j;
+            }
+        }
+        for (int k = 1; k <= 10 ; k++) {
+            x = ((y*y) + (x*x)) - (2 * i);
+            x = 0.5*x*y;
+        }
+        System.out.println(x);
     }
 
     public static void demoArray(){
